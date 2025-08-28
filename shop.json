@@ -1,0 +1,20 @@
+[
+  {
+    "id": "zengin1",
+    "name": "zengin1",
+    "price": 100000,
+    "roleId": "1408788725361541130"
+  },
+  {
+    "id": "zengin2",
+    "name": "zengin2",
+    "price": 500000,
+    "roleId": "1408788878936248383"
+  },
+  {
+    "id": "zengin3",
+    "name": "zengin3",
+    "price": 1000000,
+    "roleId": "1408789019667468310"
+  }
+]
