@@ -1,5 +1,5 @@
 // Dosya Yolu: utils/warningsHelper.js
-const Warning = require('../models/Warning'); // Yeni Warning modelini import et
+const Warning = require('../models/Warning.js'); // .js uzantısını ekledik
 const { randomUUID } = require('crypto'); // Benzersiz ID için
 
 async function addWarning(guildId, userId, moderatorId, reason) {
