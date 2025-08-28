@@ -2,11 +2,13 @@
 const { EmbedBuilder, WebhookClient } = require('discord.js');
 
 // Veri temizliği için tüm Mongoose modellerimizi import ediyoruz
-const GuildSettings = require('../models/GuildSettings');
-const Economy = require('../models/Economy');
-const Giveaway = require('../models/Giveaway');
-const PrivateRoom = require('../models/PrivateRoom');
-const Warning = require('../models/Warning');
+// --- DEĞİŞİKLİK BAŞLANGICI: Tüm require yollarına .js uzantısı eklendi ---
+const GuildSettings = require('../models/GuildSettings.js');
+const Economy = require('../models/Economy.js');
+const Giveaway = require('../models/Giveaway.js');
+const PrivateRoom = require('../models/PrivateRoom.js');
+const Warning = require('../models/Warning.js');
+// --- DEĞİŞİKLİK SONU ---
 
 
 module.exports = {
